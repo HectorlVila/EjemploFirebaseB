@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "871985280633",
+    "project_id": "ejemplofirebaseb",
+    "storage_bucket": "ejemplofirebaseb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871985280633:android:7663beef3109efe379c6a8",
+        "android_client_info": {
+          "package_name": "hector.lagunas.ejemplofirebaseb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKCWbQjybdXjRSpsx9WFl4VQ6MYNfS8F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
