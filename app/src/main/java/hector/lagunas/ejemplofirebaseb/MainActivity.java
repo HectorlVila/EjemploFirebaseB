@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseDatabase database;
     private DatabaseReference myRef;
     private DatabaseReference myPersona;
+    private ArrayList<Persona> listaPersonas;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 myPersona.setValue(p);
             }
         });
+
+
+
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
